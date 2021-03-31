@@ -1,6 +1,6 @@
 # Donation-app
 A donation application totally based on google firebase services
-To see this application action just copy and paste the whole link in url section
+To see this application in action just copy and paste the whole link in url section
 
 NOTE : AFTER SIGN UP LOGOUT AND THEN LOGIN OR THE APPLICATION WONT WORK
 
