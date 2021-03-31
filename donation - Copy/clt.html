@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <link rel="stylesheet" href="btn.css">
+  <body class="black">
+<div class="center white-text"><h2> Cloth and Garment Donation</h2></div>
+
+<div>
+  <div class="row container">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12 ">
+          <input  id="mens" type="text" class="validate white-text mens">
+          <label for="mens">Mens</label>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="Womens" type="text" class="validate  white-text womens">
+          <label for="Womens">Womens</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 ">
+          <input  id="warm" type="text" class="validate white-text warm">
+          <label for="warm">Warm cloths</label>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="input-field col s12 ">
+          <input  id="kids" type="text" class="validate white-text kids">
+          <label for="kids">Kids wear</label>
+        </div>
+
+        <div class="row"  >
+          <div class="input-field col s12 ">
+            <input  id="add" type="text" class="validate white-text add">
+            <label for="add">Address</label>
+          </div>
+        
+      </div>
+    </form>
+  </div>
+
+<br><br><br><br><br><br><br><br>
+<div class="row container"><div class="col s12 m6"><button class="btnnn white-text donate-clt">Continue donation with this   address</button></div>
+</div>
+     
+
+</div>
+
+<div class="id container">
+   
+</div>
+<br><br><br>
+
+<div class="id2">
+   
+</div>
+<div style="height: 90px;"></div>
+<!-- The core Firebase JS SDK is always required and must 
+
+be listed first -->
+<script 
+
+src="https://www.gstatic.com/firebasejs/8.2.9/firebase-
+
+app.js"></script>
+
+<script 
+
+src="https://www.gstatic.com/firebasejs/8.2.9/firebase-
+
+auth.js"></script>
+
+<script 
+
+src="https://www.gstatic.com/firebasejs/8.2.9/firebase-
+
+firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want 
+
+to use
+     
+
+https://firebase.google.com/docs/web/setup#available-
+
+libraries -->
+ 
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId 
+
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAAWEq40zCTx9aFm4DPt7W86Bzvt9HdKqc",
+    authDomain: "dododo-d5737.firebaseapp.com",
+    projectId: "dododo-d5737",
+    storageBucket: "dododo-d5737.appspot.com",
+    messagingSenderId: "408871211910",
+    appId: "1:408871211910:web:325cc37c8f890d415c5207",
+    measurementId: "G-XGN01PD5MH"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const auth=firebase.auth()
+  const db=firebase.firestore()
+  db.settings({
+    timestampsInSnapshots:true
+  })
+   
+</script>
+
+ 
+
+
+
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="auth3.js"></script>    
+  </body>
+</html>
